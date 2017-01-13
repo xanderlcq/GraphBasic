@@ -13,6 +13,8 @@
 		C055A8EF1E28658900D5A201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C055A8EE1E28658900D5A201 /* Assets.xcassets */; };
 		C055A8F21E28658900D5A201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C055A8F01E28658900D5A201 /* Main.storyboard */; };
 		C055A8FD1E28658900D5A201 /* GraphBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C055A8FC1E28658900D5A201 /* GraphBasicTests.m */; };
+		C055A9091E28659000D5A201 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = C055A9081E28659000D5A201 /* Graph.m */; };
+		C055A90C1E28659600D5A201 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = C055A90B1E28659600D5A201 /* Vertex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		C055A8F81E28658900D5A201 /* GraphBasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphBasicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C055A8FC1E28658900D5A201 /* GraphBasicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphBasicTests.m; sourceTree = "<group>"; };
 		C055A8FE1E28658900D5A201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C055A9071E28659000D5A201 /* Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		C055A9081E28659000D5A201 /* Graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
+		C055A90A1E28659600D5A201 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		C055A90B1E28659600D5A201 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 				C055A8E61E28658900D5A201 /* AppDelegate.m */,
 				C055A8EB1E28658900D5A201 /* ViewController.h */,
 				C055A8EC1E28658900D5A201 /* ViewController.m */,
+				C055A9071E28659000D5A201 /* Graph.h */,
+				C055A9081E28659000D5A201 /* Graph.m */,
+				C055A90A1E28659600D5A201 /* Vertex.h */,
+				C055A90B1E28659600D5A201 /* Vertex.m */,
 				C055A8EE1E28658900D5A201 /* Assets.xcassets */,
 				C055A8F01E28658900D5A201 /* Main.storyboard */,
 				C055A8F31E28658900D5A201 /* Info.plist */,
@@ -211,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C055A9091E28659000D5A201 /* Graph.m in Sources */,
 				C055A8ED1E28658900D5A201 /* ViewController.m in Sources */,
+				C055A90C1E28659600D5A201 /* Vertex.m in Sources */,
 				C055A8EA1E28658900D5A201 /* main.m in Sources */,
 				C055A8E71E28658900D5A201 /* AppDelegate.m in Sources */,
 			);
