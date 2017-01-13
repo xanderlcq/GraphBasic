@@ -51,10 +51,10 @@
     Vertex * vertext1 = [self.vertices objectForKey:vertexName1];
     Vertex * vertext2 = [self.vertices objectForKey:vertexName2];
     if(![vertext1 containsAdjacent:vertext2]){
-        [vertext1 addAjacent:vertext2];
+        [vertext1 addAjacentWithWeight:vertext2 weigh:weight];
     }
     if(![vertext2 containsAdjacent:vertext1]){
-        [vertext2 addAjacent:vertext1];
+        [vertext2 addAjacentWithWeight:vertext1 weigh:weight];
     }
 }
 
@@ -68,7 +68,7 @@
     Vertex * vertext1 = [self.vertices objectForKey:vertexName1];
     Vertex * vertext2 = [self.vertices objectForKey:vertexName2];
     if(![vertext1 containsAdjacent:vertext2]){
-        [vertext1 addAjacent:vertext2];
+        [vertext1 addAjacentWithWeight:vertext2 weigh:weight];
     }
 }
 -(NSNumber *) getWeightFrom:(NSString *) vertex1 to:(NSString *)vertex2{
