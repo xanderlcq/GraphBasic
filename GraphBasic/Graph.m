@@ -10,7 +10,7 @@
 
 @implementation Graph
 
--(instancetype)init{
+-(id)init{
     self = [super init];
     if(self) {
         self.vertices = [[NSMutableDictionary alloc] init];

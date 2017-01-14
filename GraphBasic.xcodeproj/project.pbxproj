@@ -15,6 +15,8 @@
 		C055A8FD1E28658900D5A201 /* GraphBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C055A8FC1E28658900D5A201 /* GraphBasicTests.m */; };
 		C055A9091E28659000D5A201 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = C055A9081E28659000D5A201 /* Graph.m */; };
 		C055A90C1E28659600D5A201 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = C055A90B1E28659600D5A201 /* Vertex.m */; };
+		C08F15521E2912B000C904EE /* dictionaryFourLetters.txt in Resources */ = {isa = PBXBuildFile; fileRef = C08F15511E2912B000C904EE /* dictionaryFourLetters.txt */; };
+		C08F15551E29130100C904EE /* WordLadder.m in Sources */ = {isa = PBXBuildFile; fileRef = C08F15541E29130100C904EE /* WordLadder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		C055A9081E28659000D5A201 /* Graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
 		C055A90A1E28659600D5A201 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
 		C055A90B1E28659600D5A201 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		C08F15511E2912B000C904EE /* dictionaryFourLetters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionaryFourLetters.txt; sourceTree = "<group>"; };
+		C08F15531E29130100C904EE /* WordLadder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordLadder.h; sourceTree = "<group>"; };
+		C08F15541E29130100C904EE /* WordLadder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordLadder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +98,9 @@
 				C055A9081E28659000D5A201 /* Graph.m */,
 				C055A90A1E28659600D5A201 /* Vertex.h */,
 				C055A90B1E28659600D5A201 /* Vertex.m */,
+				C08F15511E2912B000C904EE /* dictionaryFourLetters.txt */,
+				C08F15531E29130100C904EE /* WordLadder.h */,
+				C08F15541E29130100C904EE /* WordLadder.m */,
 				C055A8EE1E28658900D5A201 /* Assets.xcassets */,
 				C055A8F01E28658900D5A201 /* Main.storyboard */,
 				C055A8F31E28658900D5A201 /* Info.plist */,
@@ -203,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C055A8EF1E28658900D5A201 /* Assets.xcassets in Resources */,
+				C08F15521E2912B000C904EE /* dictionaryFourLetters.txt in Resources */,
 				C055A8F21E28658900D5A201 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C055A9091E28659000D5A201 /* Graph.m in Sources */,
+				C08F15551E29130100C904EE /* WordLadder.m in Sources */,
 				C055A8ED1E28658900D5A201 /* ViewController.m in Sources */,
 				C055A90C1E28659600D5A201 /* Vertex.m in Sources */,
 				C055A8EA1E28658900D5A201 /* main.m in Sources */,
@@ -419,6 +429,7 @@
 				C055A9031E28658900D5A201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C055A9041E28658900D5A201 /* Build configuration list for PBXNativeTarget "GraphBasicTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +438,7 @@
 				C055A9061E28658900D5A201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

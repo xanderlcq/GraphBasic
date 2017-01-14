@@ -12,6 +12,10 @@
 
 @property NSMutableDictionary<NSString *, Vertex *> * vertices;
 
+
+
+-(id)init;
+
 /**
  Add a vertex to the graph
 

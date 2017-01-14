@@ -7,13 +7,22 @@
 //
 
 #import "ViewController.h"
-
-@implementation ViewController
+#import "Graph.h"
+#import "WordLadder.h"
+@implementation ViewController{
+    WordLadder *g;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Do any additional setup after loading the view.
+    g = [[WordLadder alloc] init];
+    [g loadDictionary:@"dictionaryFourLetters"];
+    
+    
+    
+    
+    
+    
 }
 
 
