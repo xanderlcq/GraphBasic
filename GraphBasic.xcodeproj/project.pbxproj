@@ -15,8 +15,9 @@
 		C055A8FD1E28658900D5A201 /* GraphBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C055A8FC1E28658900D5A201 /* GraphBasicTests.m */; };
 		C055A9091E28659000D5A201 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = C055A9081E28659000D5A201 /* Graph.m */; };
 		C055A90C1E28659600D5A201 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = C055A90B1E28659600D5A201 /* Vertex.m */; };
-		C08F15521E2912B000C904EE /* dictionaryFourLetters.txt in Resources */ = {isa = PBXBuildFile; fileRef = C08F15511E2912B000C904EE /* dictionaryFourLetters.txt */; };
 		C08F15551E29130100C904EE /* WordLadder.m in Sources */ = {isa = PBXBuildFile; fileRef = C08F15541E29130100C904EE /* WordLadder.m */; };
+		C0BED6E11E2D05560049D19B /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BED6E01E2D05560049D19B /* Queue.m */; };
+		C0BED6E31E2DC7EE0049D19B /* complete.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0BED6E21E2DC7EE0049D19B /* complete.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +47,11 @@
 		C055A9081E28659000D5A201 /* Graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
 		C055A90A1E28659600D5A201 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
 		C055A90B1E28659600D5A201 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
-		C08F15511E2912B000C904EE /* dictionaryFourLetters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionaryFourLetters.txt; sourceTree = "<group>"; };
 		C08F15531E29130100C904EE /* WordLadder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordLadder.h; sourceTree = "<group>"; };
 		C08F15541E29130100C904EE /* WordLadder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordLadder.m; sourceTree = "<group>"; };
+		C0BED6DF1E2D05560049D19B /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		C0BED6E01E2D05560049D19B /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		C0BED6E21E2DC7EE0049D19B /* complete.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = complete.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +101,9 @@
 				C055A9081E28659000D5A201 /* Graph.m */,
 				C055A90A1E28659600D5A201 /* Vertex.h */,
 				C055A90B1E28659600D5A201 /* Vertex.m */,
-				C08F15511E2912B000C904EE /* dictionaryFourLetters.txt */,
+				C0BED6DF1E2D05560049D19B /* Queue.h */,
+				C0BED6E01E2D05560049D19B /* Queue.m */,
+				C0BED6E21E2DC7EE0049D19B /* complete.txt */,
 				C08F15531E29130100C904EE /* WordLadder.h */,
 				C08F15541E29130100C904EE /* WordLadder.m */,
 				C055A8EE1E28658900D5A201 /* Assets.xcassets */,
@@ -211,8 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C055A8EF1E28658900D5A201 /* Assets.xcassets in Resources */,
-				C08F15521E2912B000C904EE /* dictionaryFourLetters.txt in Resources */,
 				C055A8F21E28658900D5A201 /* Main.storyboard in Resources */,
+				C0BED6E31E2DC7EE0049D19B /* complete.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BED6E11E2D05560049D19B /* Queue.m in Sources */,
 				C055A9091E28659000D5A201 /* Graph.m in Sources */,
 				C08F15551E29130100C904EE /* WordLadder.m in Sources */,
 				C055A8ED1E28658900D5A201 /* ViewController.m in Sources */,

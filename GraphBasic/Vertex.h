@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
 @interface Vertex : NSObject
 @property NSString *value;
+@property int distance;
+@property Vertex *predecessor;
+@property NSString *color;
 
 
 @property NSMutableArray * adjacentVertices;

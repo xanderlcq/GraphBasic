@@ -10,18 +10,12 @@
 #import "Graph.h"
 #import "WordLadder.h"
 @implementation ViewController{
-    WordLadder *g;
+    WordLadder *ladder;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    g = [[WordLadder alloc] init];
-    [g loadDictionary:@"dictionaryFourLetters"];
-    
-    
-    
-    
-    
+    ladder = [[WordLadder alloc] init];
     
 }
 
@@ -33,4 +27,29 @@
 }
 
 
+- (IBAction)solveAction:(id)sender {
+    NSString *startingWord = self.startWordOutlet.stringValue;
+    NSString *targetWord = self.targetWordOutlet.stringValue;
+    if([startingWord length] != [targetWord length]){
+        [self.resultOutlet setString:@"two words have different length!"];
+        return;
+    }
+    [ladder loadDictionary:@"complete" wordLength:(int)[startingWord length]];
+    
+    if(![ladder bfs:startingWord]){
+        [self.resultOutlet setString:@"starting word does not exist!"];
+        return;
+    }
+    NSMutableArray *result = [ladder traceBackFrom:targetWord];
+    if(!result){
+        [self.resultOutlet setString:@"target word does not exist!"];
+        return;
+    }
+    if([result count] == 1){
+        [self.resultOutlet setString:@"no possible way to solve this!"];
+        return;
+    }
+    NSString *displayStr = [result componentsJoinedByString:@"\n"];
+    [self.resultOutlet setString:displayStr];
+}
 @end

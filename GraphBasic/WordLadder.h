@@ -8,9 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "Graph.h"
+#import "Queue.h"
 @interface WordLadder : NSObject
-@property NSMutableDictionary<NSString *, NSMutableArray *> *bukects;
 @property Graph *graph;
--(NSString *) replacedLetterAtIndex:(int) i source:(NSString *) og replaceWith:(NSString *) str;
--(BOOL) loadDictionary:(NSString *)fileName;
+
+
+-(BOOL) loadDictionary:(NSString *)fileName wordLength:(int) length;
+-(BOOL) bfs:(NSString *) start;
+-(NSMutableArray *) traceBackFrom:(NSString *) end;
+-(void) resetGraph;
+
 @end
